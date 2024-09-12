@@ -9,6 +9,7 @@ var option  = parseInt(prompt("Choose an Operation : "));
 var firstNumberCon = (isNaN(firstNumber));
 var secondNumberCon = (isNaN(secondNumber));
 var optionCon = (isNaN(option));
+var result;
 
 
 if(firstNumberCon || secondNumberCon || optionCon){
@@ -16,7 +17,3 @@ if(firstNumberCon || secondNumberCon || optionCon){
 }else{
     console.log('input succesful');
 }
-
-console.log(typeof(firstNumber));
-console.log(typeof(secondNumber));
-console.log(typeof(option));
