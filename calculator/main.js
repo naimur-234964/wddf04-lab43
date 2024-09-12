@@ -11,8 +11,12 @@ var secondNumberCon = (isNaN(secondNumber));
 var optionCon = (isNaN(option));
 
 
-if(firstNumberCon || secondNumber || optionCon){
-    document.write("Sorry! It seems you've input a wrong value");
+if(firstNumberCon || secondNumberCon || optionCon){
+    console.log("Sorry! It seems you've input a wrong value");
 }else{
     console.log('input succesful');
 }
+
+console.log(typeof(firstNumber));
+console.log(typeof(secondNumber));
+console.log(typeof(option));
