@@ -5,3 +5,9 @@ var secondNumber = parseInt(prompt("Enter Second Number : "));
 var option  = prompt("Choose an Operation : ");
 
 
+// Checking for isNan
+var firstNumberCon = (isNaN(firstNumber));
+var secondNumberCon = (isNaN(secondNumber));
+var optionCon = (isNaN(option));
+
+
