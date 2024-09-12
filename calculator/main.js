@@ -35,8 +35,9 @@ if (firstNumberCon || secondNumberCon || optionCon || option == 0 || option > 4)
                 document.write(`The Multiplication is ${firstNumber / secondNumber}`);
             }
             break;
-
-        default:
+            
+            default:
+            document.write(`Thank You. The Process is Completed`);
             break;
     }
 }
