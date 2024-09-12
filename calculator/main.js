@@ -20,12 +20,20 @@ if (firstNumberCon || secondNumberCon || optionCon || option == 0 || option > 4)
             document.write(`The Sum is ${firstNumber + secondNumber}`);
             break;
 
-        case 2:
-            document.write(`The Subtraction is ${firstNumber - secondNumber}`);
+            case 2:
+                document.write(`The Subtraction is ${firstNumber - secondNumber}`);
             break;
+            
+            case 3:
+                document.write(`The Multiplication is ${firstNumber * secondNumber}`);
+                break;
 
-        case 3:
-            document.write(`The Multiplication is ${firstNumber * secondNumber}`);
+        case 4:
+            if(secondNumber == 0){
+                document.write("Sorry! Division by 0 is not Possible.");
+            }else{
+                document.write(`The Multiplication is ${firstNumber / secondNumber}`);
+            }
             break;
 
         default:
