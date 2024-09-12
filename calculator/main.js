@@ -24,6 +24,10 @@ if (firstNumberCon || secondNumberCon || optionCon || option == 0 || option > 4)
             document.write(`The Subtraction is ${firstNumber - secondNumber}`);
             break;
 
+        case 3:
+            document.write(`The Multiplication is ${firstNumber * secondNumber}`);
+            break;
+
         default:
             break;
     }
