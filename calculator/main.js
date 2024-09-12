@@ -12,8 +12,15 @@ var optionCon = (isNaN(option));
 var result;
 
 
-if(firstNumberCon || secondNumberCon || optionCon){
-    console.log("Sorry! It seems you've input a wrong value");
+if(firstNumberCon || secondNumberCon || optionCon || option  == 0 || option > 4){
+    document.write("Sorry! It seems you've input a wrong value");
 }else{
-    console.log('input succesful');
+    switch (option) {
+        case 1:
+            document.write(`The Sum is ${firstNumber + secondNumber}`);
+            break;
+    
+        default:
+            break;
+    }
 }
